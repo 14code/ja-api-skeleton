@@ -1,0 +1,34 @@
+{
+  "name": "14code/ja-api-skeleton",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Hoppe",
+      "email": "dh@14cod.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "I4code\\JaApiSkeleton\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "I4code\\JaApiSkeleton\\Test\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "laminas/laminas-httphandlerrunner": "^1.3",
+    "14code/ja-api": "^0.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4.15"
+    }
+  }
+}
